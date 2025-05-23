@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#mensaje {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.error {
+  color: red;
+}
+
+.exito {
+  color: green;
+}

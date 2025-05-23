@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulario de Validación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulario de Datos</h1>
+  <form id="formulario">
+    <label>Nombre: <input type="text" id="nombre" /></label><br>
+    <label>Apellido: <input type="text" id="apellido" /></label><br>
+    <label>Edad (años): <input type="number" id="edad" /></label><br>
+    <label>Altura (cm): <input type="number" id="altura" /></label><br>
+    <label>Correo electrónico: <input type="email" id="email" /></label><br>
+    <button type="button" onclick="validarFormulario()">Enviar</button>
+  </form>
+
+  <p id="mensaje"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
