@@ -1,1 +1,1 @@
-Texto modificado por rama 1
+Texto resuelto manualmente entre rama 1 y rama 2
